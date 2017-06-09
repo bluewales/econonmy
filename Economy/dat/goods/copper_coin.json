@@ -1,0 +1,17 @@
+{
+    "name": "copper coin",
+    "made_by_profession": "minter",
+    "function_for_utility": "(0)=",
+    "durability": 0,
+    "used_by_profession": "",
+    "class": "good:coin:copper coin",
+    "recipes": [
+        {
+            "action": "mint copper coins",
+            "required_materials": "copper,charcoal",
+            "required_tools": "mint",
+            "beneficial_tools": "hammer,knife",
+            "function_for_production": "(P1)(P1)(P2)*s+(5)*="
+        }
+    ]
+}

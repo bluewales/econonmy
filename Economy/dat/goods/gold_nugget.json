@@ -1,0 +1,17 @@
+{
+	"name": "gold nugget",
+	"made_by_profession": "miner",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 6000,
+	"used_by_profession": "smelter",
+	"class": "good:resource:gold nugget",
+	"recipes": [
+        {
+            "action": "mine gold nugget",
+            "required_materials": "",
+			"required_tools": "pick axe,hammer",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(6)/="
+        }
+    ]
+}

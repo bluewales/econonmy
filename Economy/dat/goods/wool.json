@@ -1,0 +1,18 @@
+{
+	"name": "wool",
+	
+	"made_by_profession": "spinner",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 1500,
+	"used_by_profession": "tailor",
+	"class": "good:cloth:wool",
+	"recipes": [
+        {
+            "action": "spin wool",
+            "required_materials": "wool fiber",
+			"required_tools": "spinning wheel",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)="
+        }
+    ]
+}

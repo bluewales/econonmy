@@ -1,0 +1,17 @@
+{
+	"name": "silver coin",
+	"made_by_profession": "minter",
+	"function_for_utility": "(0)=",
+	"durability": 0,
+	"used_by_profession": "",
+	"class": "good:silver coin",
+	"recipes": [
+        {
+            "action": "mint silver coins",
+            "required_materials": "silver,charcoal",
+            "required_tools": "mint,hammer",
+            "beneficial_tools": "knife",
+            "function_for_production": "(P1)(P1)(P2)*s+(2)/="
+        }
+    ]
+}

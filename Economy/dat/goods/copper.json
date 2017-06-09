@@ -1,0 +1,25 @@
+{
+	"name": "copper",
+	"made_by_profession": "miner",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 5000,
+	"function_for_potential": "(P2)(100)(P1)-*s(75)*s=",
+	"used_by_profession": "smelter,smith,minter",
+	"class": "good:resource:copper",
+	"recipes": [
+        {
+            "action": "mine copper",
+            "required_materials": "",
+			"required_tools": "pick axe",
+			"beneficial_tools": "shovel",
+            "function_for_production": "(P1)(P2)+(P3)*s="
+        },
+        {
+			"action": "melt copper coin",
+            "required_materials": "copper coin,charcoal",
+            "required_tools": "smelting oven,hammer",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)(3)*="
+        }
+    ]
+}

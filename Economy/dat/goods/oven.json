@@ -1,0 +1,17 @@
+{
+	"name": "oven",
+	"made_by_profession": "mason",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 200,
+	"used_by_profession": "baker",
+	"class": "good:finished good:tool:oven",
+	"recipes": [
+        {
+            "action": "construct oven",
+			"required_materials": "stone",
+			"required_tools": "",
+			"beneficial_tools": "",
+			"function_for_production": "(P1)(P2)+(5)/="
+        }
+    ]
+}

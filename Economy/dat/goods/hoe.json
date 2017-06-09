@@ -1,0 +1,17 @@
+{
+	"name": "hoe",
+	"made_by_profession": "carpenter",
+	"function_for_utility": "(P5)(8)*(P4)(2)*+(P3)(1)+/=",
+	"durability": 1100,
+	"used_by_profession": "farmer",
+	"class": "good:finished good:tool:hoe",
+	"recipes": [
+        {
+            "action": "make hoe",
+            "required_materials": "wood",
+			"required_tools": "",
+			"beneficial_tools": "axe",
+            "function_for_production": "(P1)(3)/="
+        }
+    ]
+}

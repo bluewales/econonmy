@@ -1,0 +1,24 @@
+{
+    "name": "gold",
+    "function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(10)/+/=",
+    "used_by_profession": "smith,minter",
+    "class": "good:metal:gold",
+    "made_by_profession": "smelter",
+	"durability": 2000,
+    "recipes": [
+        {
+			"action": "smelt gold nugget",
+            "required_materials": "gold nugget,charcoal",
+            "required_tools": "smelting oven,hammer",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)(8)/="
+        },
+        {
+			"action": "melt gold coin",
+            "required_materials": "gold coin,charcoal",
+            "required_tools": "smelting oven,hammer",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)(3)/="
+        }
+    ]
+}

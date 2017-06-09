@@ -1,0 +1,5 @@
+<h1>Set sail from {{view_model.market_data.city_name}}!</h1>
+<p>These are the places you can go.  Maybe the prices will be better over there.</p>
+<ul class="destination_list">
+  <li data-ng-repeat="city in view_model.cities" data-ng-click="view_model.travel(city)" >{{ city.city_name }}</li>
+</ul>

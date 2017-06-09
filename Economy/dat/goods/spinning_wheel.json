@@ -1,0 +1,17 @@
+{
+	"name": "spinning wheel",
+	"made_by_profession": "crafter",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 700,
+	"used_by_profession": "spinner",
+	"class": "good:finished good:tool:spinning wheel",
+	"recipes": [
+        {
+            "action": "craft spinning wheel",
+			"required_materials": "wood",
+			"required_tools": "axe,knife",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(5)/="
+        }
+    ]
+}

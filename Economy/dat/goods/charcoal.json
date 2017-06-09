@@ -1,0 +1,17 @@
+{
+	"name": "charcoal",
+	"made_by_profession": "smith",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 1900,
+	"used_by_profession": "smith",
+	"class": "good:charcoal",
+	"recipes": [
+        {
+            "action": "make charcoal",
+            "required_materials": "wood",
+            "required_tools": "wood kiln",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)="
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "raw hide",
+	"made_by_profession": "butcher",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 650,
+	"used_by_profession": "tanner",
+	"class": "good:raw hide",
+	"recipes": [
+        {
+            "action": "skin cow",
+            "required_materials": "cow",
+			"required_tools": "knife",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(P2)+(5)/="
+        }
+    ]
+}

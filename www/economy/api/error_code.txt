@@ -1,0 +1,14 @@
+error_code    message                                         source
+
+54            Authentication failed.                          multiple
+55            {mysql error}                                   multiple
+83            Required parameters not found.                  top level
+84            No method named.                                top level
+94            Invalid login.                                  login
+104           Not logged in.                                  logout
+122           Error saving file.                              upload_race_data
+123           No race matches given identifier.               upload_race_data
+124           File is missing required field 'bib_number'.    upload_race_data
+125           No file uploaded.                               upload_race_data
+131           Race not found.                                 multiple
+132           Must have selection parameter.                  claim_race

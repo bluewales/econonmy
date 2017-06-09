@@ -1,0 +1,17 @@
+{
+	"name": "pin",
+	"made_by_profession": "smith",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 1400,
+	"used_by_profession": "tailor",
+	"class": "good:finished good:tool:pin",
+	"recipes": [
+        {
+            "action": "forge pin",
+            "required_materials": "iron,charcoal",
+			"required_tools": "hammer",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(P2)+(2)/="
+        }
+    ]
+}

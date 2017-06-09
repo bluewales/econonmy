@@ -1,0 +1,252 @@
+{
+    "good": {
+        "resource": {
+            "wheat": {
+                //"path": "wheat.json"
+            },
+            "wood": {
+                "path": "wood.json"
+            },
+            "iron ore": {
+                "path": "iron_ore.json"
+            },
+            "cow": {
+                "path": "cow.json"
+            },
+            "sheep": {
+                "path": "sheep.json"
+            },
+            "cotton": {
+                "path": "cotton.json"
+            },
+            "copper": {
+                "path": "copper.json"
+            },
+            "stone": {
+                "path": "stone.json"
+            },
+            "nickel ore": {
+                "path": "nickel_ore.json"
+            },
+            "chromium ore": {
+                "path": "chromium_ore.json"
+            },
+            "gold nugget": {
+                "path": "gold_nugget.json"
+            },
+            "silver ore": {
+                "path": "silver_ore.json"
+            }
+        },
+        "finished good": {
+			"jewellery": {
+				"gold necklace": {
+					"path": "gold_necklace.json"
+				},
+				"gold ring": {
+					"path": "gold_ring.json"
+				}
+			},
+			"table ware": {
+				"silver plate": {
+					"path": "silver_plate.json"
+				},
+				"copper bowl": {
+					"path": "copper_bowl.json"
+				}
+			},
+            "clothes": {
+                "pants": {
+                    "leather pants": {
+                        "path": "leather_pants.json"
+                    },
+                    "wool pants": {
+                        "path": "wool_pants.json"
+                    },
+                    "cotton pants": {
+                        "path": "cotton_pants.json"
+                    }
+                },
+                "shirt": {
+                    "leather shirt": {
+                        "path": "leather_shirt.json"
+                    },
+                    "wool shirt": {
+                        "path": "wool_shirt.json"
+                    },
+                    "cotton shirt": {
+                        "path": "cotton_shirt.json"
+                    }
+                },
+                "pair of socks": {
+                    "pair of wool socks": {
+                        "path": "pair_of_wool_socks.json"
+                    },
+                    "pair of cotton socks": {
+                        "path": "pair_of_cotton_socks.json"
+                    }
+                },
+                "hat": {
+                    
+                },
+                "shoes": {
+                    
+                }
+            },
+            "furniture": {
+                "table": {
+                    
+                },
+                "chair": {
+                    
+                },
+                "bed": {
+                    
+                },
+                "chest of drawers": {
+                    
+                },
+                "sofa": {
+                    
+                }
+            },
+            "tool": {
+                "needle": {
+                    "wooden needle": {
+                        "path": "wooden_needle.json"
+                    },
+                    "bone needle": {
+                        "path": "bone_needle.json"
+                    },
+                    "steel needle": {
+                        "path": "steel_needle.json"
+                    }
+                },
+                "pin": {
+                    "path": "pin.json"
+                },
+                "hammer": {
+                    "path": "hammer.json"
+                },
+                "axe": {
+                    "path": "axe.json"
+                },
+                "saw": {
+                    "path": "saw.json"
+                },
+                "pick axe": {
+                    "path": "pick_axe.json"
+                },
+                "grindstone": {
+                    //"path": "grindstone.json"
+                },
+                "oven": {
+                    //"path": "oven.json"
+                },
+                "mint": {
+                    "path": "mint.json"
+                },
+                "wood kiln": {
+                    "path": "wood_kiln.json"
+                },
+                "smelting oven": {
+                    "path": "smelting_oven.json"
+                },
+                "knife": {
+                    "path": "knife.json"
+                },
+                "rake": {
+                    "path": "rake.json"
+                },
+                "hoe": {
+                    "path": "hoe.json"
+                },
+                "shovel": {
+                    "path": "shovel.json"
+                },
+                "spinning wheel": {
+                    "path": "spinning_wheel.json"
+                },
+                "rope": {
+                    
+                }
+            },
+            "weapons": {
+				"sword": {
+					"path": "sword.json"
+				}
+            }
+        },
+        "raw hide": {
+            "path": "raw_hide.json"
+        },
+        "wool fiber": {
+            "path": "wool_fiber.json"
+        },
+        "cloth": {
+            "leather": {
+                "path": "leather.json"
+            },
+            "wool": {
+                "path": "wool.json"
+            },
+            "cotton cloth": {
+                "path": "cotton_cloth.json"
+            }
+        },
+        "thread": {
+            "sinew": {
+                "path": "sinew.json"
+            },
+            "wool thread": {
+                "path": "wool_thread.json"
+            },
+            "cotton thread": {
+                "path": "cotton_thread.json"
+            }
+        },
+        "flour": {
+            //"path": "flour.json"
+        },
+        "metal": {
+            "iron": {
+                "path": "iron.json"
+            },
+            "steel": {
+                "path": "steel.json"
+            },
+            "chromium": {
+                "path": "chromium.json"
+            },
+            "nickel": {
+                "path": "nickel.json"
+            },
+            "gold": {
+                "path": "gold.json"
+            },
+            "silver": {
+                "path": "silver.json"
+            }
+        },
+        "charcoal": {
+            "path": "charcoal.json"
+        },
+        "bone": {
+            "path": "bone.json"
+        },
+        "coin": {
+            "gold coin": {
+                "path": "gold_coin.json"
+            },
+            "silver coin": {
+                "path": "silver_coin.json"
+            },
+            "copper coin": {
+                "path": "copper_coin.json"
+            }
+        },
+        "food": {
+            //"path": "food.json"
+        }
+    }
+}

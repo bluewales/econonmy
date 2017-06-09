@@ -1,0 +1,28 @@
+body {
+    background-color: #123456;
+}
+
+article {
+	width: 800px;
+	margin: auto;
+	background-color: #f8f8f8;
+	padding: 80px 120px;
+}
+
+article h2 {
+	text-align: center;
+}
+
+article img {
+	margin: auto;
+    padding: 10px;
+	float: right;
+}
+
+article p {
+	
+}
+
+article footer {
+	clear: left;
+}

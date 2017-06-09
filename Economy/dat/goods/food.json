@@ -1,0 +1,17 @@
+{
+	"name": "food",
+	"made_by_profession": "baker",
+	"function_for_utility": "(0)=",
+	"durability": 0,
+	"used_by_profession": "",
+	"class": "good:food",
+	"recipes": [
+        {
+            "action": "cook food",
+            "required_materials": "flour,wood",
+			"required_tools": "oven",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(30)+=",
+        }
+    ]
+}

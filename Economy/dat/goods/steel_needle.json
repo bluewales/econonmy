@@ -1,0 +1,17 @@
+{
+	"name": "steel needle",
+	"made_by_profession": "smith",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 1600,
+	"used_by_profession": "tailor",
+	"class": "good:finished good:tool:needle:steel needle",
+	"recipes": [
+        {
+            "action": "forge needle",
+            "required_materials": "steel,charcoal",
+			"required_tools": "hammer",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)="
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "stone",
+	"made_by_profession": "miner",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 2000,
+	"used_by_profession": "crafter",
+	"class": "good:resource:stone",
+	"recipes": [
+        {
+            "action": "gather stone",
+			"required_materials": "",
+			"required_tools": "",
+			"beneficial_tools": "pick axe",
+            "function_for_production": "(P1)(P2)+(10)/="
+        }
+    ]
+}

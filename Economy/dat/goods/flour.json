@@ -1,0 +1,17 @@
+{
+	"name": "flour",
+	"made_by_profession": "miller",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 400,
+	"used_by_profession": "baker",
+	"class": "good:flour",
+	"recipes": [
+        {
+            "action": "mill flour",
+            "required_materials": "wheat",
+			"required_tools": "grindstone",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(3)/="
+        }
+    ]
+}

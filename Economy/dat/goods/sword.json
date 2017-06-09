@@ -1,0 +1,18 @@
+{
+	"name": "sword",
+	"made_by_profession": "smith",
+	"function_for_affinity": "(R)(101)%=",
+	"function_for_utility": "(P2)(P4)+(P3)(1)+/=",
+	"durability": 2500,
+	"used_by_profession": "",
+	"class": "good:finished good:weapon:sword",
+	"recipes": [
+        {
+            "action": "forge sword",
+			"required_materials": "steel:4,bone,charcoal:2",
+			"required_tools": "hammer,knife",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)="
+        }
+    ]
+}

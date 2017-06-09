@@ -1,0 +1,5 @@
+<h1>Welcome to {{view_model.market_data.city_name}}</h1>
+<input type="text" data-ng-model="view_model.goodsSearch" placeholder="Search for good">
+<ul>
+  <li data-ng-repeat="good in view_model.market_data.goods | filter:view_model.goodsSearch">{{ good.name }} {{ good.price}}</li>
+</ul>

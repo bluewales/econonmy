@@ -1,0 +1,25 @@
+{
+	"name": "sheep",
+	"made_by_profession": "hunter",
+	"function_for_affinity": "(100)(0)(R)(1000)%(1):?=",
+	"function_for_utility": "(P2)(P4)(3)*(P5)(7)*+(P2)?(1)(P3)(5)/+/=",
+	"durability": 600,
+	"used_by_profession": "farmer,hunter",
+	"class": "good:resource:sheep",
+	"recipes": [
+        {
+            "action": "catch sheep",
+			"required_materials": "",
+			"required_tools": "",
+			"beneficial_tools": "",
+            "function_for_production": "(1)(0)(R)(100)(P1)-%(0):?="
+        },
+		{
+            "action": "breed sheep",
+            "required_materials": "",
+			"required_tools": "sheep:2",
+			"beneficial_tools": "",
+            "function_for_production": "(1)="
+        }
+    ]
+}

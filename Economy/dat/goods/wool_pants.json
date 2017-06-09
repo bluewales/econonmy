@@ -1,0 +1,25 @@
+{
+	"name": "wool pants",
+	"made_by_profession": "tailor",
+	"function_for_affinity": "(R)(100)%(R)(100)%+(5)/(20)+=",
+	"function_for_utility": "(P4)(3)*(P2)(7)*(10)/+(P3)(1)+/(100)(P6)-(P2)+*(200)/=",
+	"durability": 1150,
+	"used_by_profession": "",
+	"class": "good:finished good:clothes:pants:wool pants",
+	"recipes": [
+        {
+            "action": "smelt silver ore",
+			"required_materials": "wool:2,wool thread",
+			"required_tools": "wooden needle",
+			"beneficial_tools": "pin",
+            "function_for_production": "(P1)(P2)+(5)/(1)+="
+        },
+		{
+            "action": "sew wool shirt",
+            "required_materials": "wool:2,wool thread",
+            "required_tools": "steel needle",
+            "beneficial_tools": "pin",
+            "function_for_production": "(P1)(P2)+(3)/="
+        }
+    ]
+}

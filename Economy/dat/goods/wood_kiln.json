@@ -1,0 +1,17 @@
+{
+	"name": "wood kiln",
+	"made_by_profession": "mason",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 1800,
+	"used_by_profession": "smith",
+	"class": "good:finished good:tool:wood kiln",
+	"recipes": [
+        {
+            "action": "smelt silver ore",
+            "required_materials": "stone",
+			"required_tools": "",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(3)/="
+        }
+    ]
+}

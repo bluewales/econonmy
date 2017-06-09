@@ -1,0 +1,17 @@
+{
+	"name": "cotton cloth",
+	"made_by_profession": "spinner",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 1200,
+	"used_by_profession": "tailor",
+	"class": "good:cloth:cotton cloth",
+	"recipes": [
+        {
+            "action": "weave cotton cloth",
+            "required_materials": "cotton,cotton thread",
+			"required_tools": "spinning wheel",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)="
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+<h1>These are your pending orders in {{view_model.market_data.city_name}}!</h1>
+
+<p>Your orders will be filled as soon as possible.  They can't be filled unless the market price is in the right range.</p>
+
+<h2>Pending Sales</h2>
+<table>
+	<tr><th>Item</th><th>Quantity Sold</th><th>Quantity Unsold</th><th>Asking Price</th><th>Balance</th></tr>
+	<tr data-ng-repeat="offer in view_model.market_data.offers">
+		<td>{{ offer.good_name }}</td>
+		<td>{{ offer.quantity_sold}}</td>
+		<td>{{ offer.quantity_unsold}}</td>
+		<td>{{ offer.min_price}}</td>
+		<td>{{ offer.balance}}</td>
+		<td >
+			<button type="submit"  data-ng-click="view_model.claim_offer(offer)" >Withdrw</button>
+		</td>
+	</tr>
+</table>
+
+<h2>Pending Purchases</h2>
+<table>
+	<tr><th>Item</th><th>Quantity Bought</th><th>Quantity Unbought</th><th>Offering Price</th><th>Balance</th></tr>
+	<tr data-ng-repeat="bid in view_model.market_data.bids">
+		<td>{{ bid.good_name }}</td>
+		<td>{{ bid.quantity_bought}}</td>
+		<td>{{ bid.quantity_unbought}}</td>
+		<td>{{ bid.max_price}}</td>
+		<td>{{ bid.balance}}</td>
+		<td >
+			<button type="submit"  data-ng-click="view_model.claim_bid(bid)" >Withdraw</button>
+		</td>
+	</tr>
+</table>

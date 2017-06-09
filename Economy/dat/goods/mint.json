@@ -1,0 +1,17 @@
+{
+	"name": "mint",
+	"made_by_profession": "minter",
+	"function_for_utility": "(P5)(15)*(P3)(1)+/=",
+	"durability":400,
+	"used_by_profession": "minter",
+	"class": "good:finnished good:tool:mint",
+	"recipes": [
+        {
+            "action": "build mint",
+			"required_materials": "steel:3,iron:2,chromium:2,wood:10",
+			"required_tools": "hammer,knife",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(20)/="
+        }
+    ]
+}

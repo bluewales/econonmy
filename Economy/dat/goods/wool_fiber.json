@@ -1,0 +1,17 @@
+{
+	"name": "wool fiber",
+	"made_by_profession": "farmer",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 1000,
+	"used_by_profession": "spinner",
+	"class": "good:fiber:wool fiber",
+	"recipes": [
+        {
+            "action": "shear sheep",
+            "required_materials": "sheep",
+			"required_tools": "knife",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(5)/="
+        }
+    ]
+}

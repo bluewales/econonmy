@@ -1,0 +1,24 @@
+{
+	"name": "silver",
+	"made_by_profession": "smelter",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(10)/+/=",
+	"durability": 4500,
+	"used_by_profession": "smith,minter",
+	"class": "good:metal:silver",
+	"recipes": [
+        {
+            "action": "smelt silver ore",
+            "required_materials": "silver ore,charcoal",
+            "required_tools": "smelting oven,hammer",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)(6)/="
+        },
+        {
+			"action": "melt silver coin",
+            "required_materials": "silver coin,charcoal",
+            "required_tools": "smelting oven,hammer",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)="
+        }
+    ]
+}

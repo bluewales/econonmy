@@ -1,0 +1,17 @@
+{
+	"name": "grindstone",
+	"made_by_profession": "crafter",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 2500,
+	"used_by_profession": "miller",
+	"class": "good:finished good:tool:grindstone",
+	"recipes": [
+        {
+            "action": "carve grindstone",
+            "required_materials": "stone",
+			"required_tools": "",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(2)/=",
+        }
+    ]
+}

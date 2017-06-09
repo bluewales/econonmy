@@ -1,0 +1,22 @@
+<h1>Hello, {{view_model.captain.first_name}} {{view_model.captain.last_name}}</h1>
+<p>Your ship is docked at the port in {{view_model.market_data.city_name}}</p>
+<p>Purse: {{view_model.captain.money}} Moneys</p>
+<p>This is the cargo you have in the hold of your ship.</p>
+
+
+<table>
+	<tr><th>Cargo</th><th>Quantity</th><th>Local Price</th></tr>
+	<tr data-ng-repeat="good in view_model.captain.inventory">
+		<td>{{ good.name }}</td>
+		<td>{{ good.quantity}}</td>
+		<td>{{ good.price}}</td>
+		<td class="trade_button">
+			<form>
+				Quantity: <input type="text"  data-ng-model="good.quantity_to_sell">
+				Asking Price: <input type="text" data-ng-model="good.min_price_to_sell">
+				<button type="submit"  data-ng-click="view_model.sell(good)" >Sell</button>
+			</form>
+			{{ good.message}}
+		</td>
+	</tr>
+</table>

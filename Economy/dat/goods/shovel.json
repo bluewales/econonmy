@@ -1,0 +1,17 @@
+{
+	"name": "shovel",
+	"made_by_profession": "smith",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 9000,
+	"used_by_profession": "farmer,miner",
+	"class": "good:finished good:tool:shovel",
+	"recipes": [
+        {
+            "action": "make shovel",
+			"required_materials": "wood,iron",
+			"required_tools": "hammer",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(3)/="
+        }
+    ]
+}

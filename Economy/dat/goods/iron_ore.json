@@ -1,0 +1,25 @@
+{
+	"name": "iron ore",
+	"made_by_profession": "miner",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 5000,
+	"function_for_potential": "(P2)(100)(P1)-*s=",
+	"used_by_profession": "smelter",
+	"class": "good:resource:iron ore",
+	"recipes": [
+        {
+            "action": "find iron ore",
+            "required_materials": "",
+			"required_tools": "",
+			"beneficial_tools": "",
+            "function_for_production": "(1)(0)(R)(100)%(P1)(P3)*s<?="
+        },
+		{
+            "action": "mine iron ore",
+            "required_materials": "",
+			"required_tools": "pick axe,shovel",
+			"beneficial_tools": "shovel",
+            "function_for_production": "(P1)(P2)+(2)/(P3)*s="
+        }
+    ]
+}

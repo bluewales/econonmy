@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="game">
+  <head>
+    <script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	
+    <link rel="stylesheet" href="style.css">
+	<title>Trading Seas</title>
+  </head>
+  <body>
+	  <h1>Trading Seas</h1>
+	  
+	  <ul id="nav">
+		<li><a href="#/buy">Buy</a></li>
+		<li><a href="#/sell">Sell</a></li>
+		<li><a href="#/orders">Orders</a></li>
+		<li><a href="#/travel">Travel</a></li>
+		<li><a href="#/about">About</a></li>
+	  </ul>
+	  
+      <div ng-view id="main_view"></div>
+      
+	 
+	  
+	  
+	  
+	  
+	  <p class="footer">&copy; 2015 Luke Davidson</p>
+	  
+	  
+	  <!-- Modules -->
+      <script src="js/game.js"></script>
+
+      <!-- Controllers -->
+      <script src="js/mainController.js"></script>
+
+      <!-- Services -->
+	  <script src="js/service.js"></script>
+ 	  <script src="js/services/http_engine.js"></script>
+
+      <!-- Directives -->
+	  
+	  
+  </body>
+</html>

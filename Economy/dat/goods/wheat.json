@@ -1,0 +1,17 @@
+{
+	"name": "wheat",
+	"made_by_profession": "farmer",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 400,
+	"used_by_profession": "miller",
+	"class": "good:resource:wheat",
+	"recipes": [
+        {
+            "action": "forge sword",
+			"required_materials": "",
+			"required_tools": "hoe",
+			"beneficial_tools": "rake,shovel",
+            "function_for_production": "(P1)(P2)+="
+        }
+    ]
+}

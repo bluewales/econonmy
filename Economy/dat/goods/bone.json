@@ -1,0 +1,17 @@
+{
+	"name": "bone",
+	"made_by_profession": "butcher",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 1800,
+	"used_by_profession": "crafter,blogger",
+	"class": "good:bone",
+	"recipes": [
+        {
+            "action": "slaughter cow",
+            "required_materials": "cow",
+            "required_tools": "knife",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)(2)/="
+        }
+    ]
+}

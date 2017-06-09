@@ -1,0 +1,10 @@
+{
+    "ship": {
+		"flyboat": {
+			"path": "flyboat.json"
+		},
+		"cromster": {
+			"path": "crompster.json"
+		}
+    }
+}

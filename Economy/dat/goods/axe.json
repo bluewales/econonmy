@@ -1,0 +1,17 @@
+{
+	"name": "axe",
+	"made_by_profession": "smith",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 2100,
+	"used_by_profession": "lumber jack,carpenter",
+	"class": "good:finnished good:tool:axe",
+	"recipes": [
+        {
+            "action": "max axe",
+            "required_materials": "iron,wood,charcoal",
+			"required_tools": "hammer",
+			"beneficial_tools": "",
+            "function_for_production": "(P1)(2)/="
+        }
+    ]
+}

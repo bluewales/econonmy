@@ -1,0 +1,17 @@
+{
+    "name": "gold coin",
+    "made_by_profession": "minter",
+    "function_for_utility": "(0)=",
+    "durability": 0,
+    "used_by_profession": "",
+    "class": "good:coin:gold coin",
+    "recipes": [
+        {
+            "action": "mint gold coins",
+            "required_materials": "gold,charcoal",
+            "required_tools": "mint,hammer,knife",
+            "beneficial_tools": "",
+            "function_for_production": "(P1)(10)/="
+        }
+    ]
+}

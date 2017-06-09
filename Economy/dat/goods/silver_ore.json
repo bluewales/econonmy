@@ -1,0 +1,17 @@
+{
+	"name": "silver ore",
+	"made_by_profession": "miner",
+	"function_for_utility": "(P4)(3)*(P5)(7)*+(1)(P3)(5)/+/=",
+	"durability": 6000,
+	"used_by_profession": "smelter",
+	"class": "good:resource:silver ore",
+	"recipes": [
+        {
+            "action": "mine silver ore",
+			"required_materials": "",
+			"required_tools": "pick axe",
+			"beneficial_tools": "hammer",
+            "function_for_production": "(P1)(P2)+(12)/="
+        }
+    ]
+}

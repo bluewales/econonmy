@@ -1,0 +1,21 @@
+<h1>Welcome to {{view_model.market_data.city_name}}!</h1>
+
+<p>Purse: {{view_model.captain.money}} Moneys</p>
+<p>These are the goods you can purchase.</p>
+<input type="text" data-ng-model="view_model.goodsSearch" placeholder="Search for good">
+
+<table>
+	<tr><th>Good</th><th>Local Price</th></tr>
+	<tr data-ng-repeat="good in view_model.market_data.goods | filter:view_model.goodsSearch">
+		<td>{{ good.name }}</td>
+		<td>{{ good.price}}</td>
+		<td>
+			<form>
+				Quantity: <input type="text"  data-ng-model="good.quantity_to_buy">
+				Max Price: <input type="text" data-ng-model="good.max_price_to_buy">
+				<button type="submit"  data-ng-click="view_model.buy(good)" >Buy</button>
+			</form>
+			{{ good.message}}
+		</td>
+	</tr>
+</table>

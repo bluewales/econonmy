@@ -1,0 +1,17 @@
+{
+	"name": "hammer",
+	"made_by_profession": "smith",
+	"function_for_utility": "(P5)(7)*(P4)(3)*+(P3)(1)+/=",
+	"durability": 2000,
+	"used_by_profession": "smith,miner,minter",
+	"class": "good:finished good:tool:hammer",
+	"recipes": [
+        {
+            "action": "make hammer",
+			"required_materials": "iron:2,wood",
+			"required_tools": "",
+			"beneficial_tools": "hammer",
+            "function_for_production": "(P1)(2)/(1)+="
+        }
+    ]
+}
